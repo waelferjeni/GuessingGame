@@ -21,7 +21,7 @@ class ExpertMode : AppCompatActivity() {
     lateinit var imageButtonReset: ImageButton
     lateinit var imageButtonCheck: ImageButton
     var number: Int = 0
-    var random: Int = Random.nextInt(1, 100)
+    var random: Int = Random.nextInt(1, 1000)
     private lateinit var countdownTimer: CountDownTimer
 
     override fun onCreate(savedInstanceState: Bundle?) {

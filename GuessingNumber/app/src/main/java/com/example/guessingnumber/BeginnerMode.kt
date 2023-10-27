@@ -24,7 +24,7 @@ class BeginnerMode : AppCompatActivity() {
     lateinit var tableLayout: TableLayout
     private lateinit var mediaPlayer: MediaPlayer
     var number: Int = 0
-    var random: Int = nextInt(1, 100)
+    var random: Int = nextInt(1, 1000)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
